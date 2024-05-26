@@ -53,14 +53,14 @@
       </div>
       <div class="contact-section" id="contact">
         <h1>Contact Us</h1>
-        <form action="thanks.html">
+        <form action="thanks.html" role="form" aria-labelledby="contact">
           <label>Full Name</label>
-          <input type="text" placeholder="Full Name">
-          <input type="text" placeholder="Email">
-          <input type="text" placeholder="Subject">
+          <input type="text" placeholder="Full Name" aria-label="full-name" aria-required="true">
+          <input type="text" placeholder="Email" aria-label="email" aria-required="true">
+          <input type="text" placeholder="Subject" aria-label="subject" aria-required="true">
           <b>Your Message</b>
-          <textarea></textarea>
-          <button type="submit">Send</button>
+          <textarea aria-label="text-area-message"></textarea>
+          <button type="submit" aria-label="button">Send</button>
         </form>
       </div>
     </main>
