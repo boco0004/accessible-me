@@ -54,15 +54,15 @@
       <div class="contact-section" id="contact">
         <h1>Contact Us</h1>
         <form action="thanks.html" role="form" aria-labelledby="contact">
-          <label>Full Name</label>
-          <input type="text" placeholder="Full Name" aria-label="full-name" aria-required="true">
-          <label>Email</label>
-          <input type="text" placeholder="Email" aria-label="email" aria-required="true">
-          <label>Subject</label>
-          <input type="text" placeholder="Subject" aria-label="subject" aria-required="true">
-          <b>Your Message</b>
-          <textarea aria-label="text-area-message"></textarea>
-          <button type="submit" aria-label="button">Send</button>
+          <label id="full-name">Full Name</label>
+          <input type="text" placeholder="Full Name" aria-labelledby="full-name" aria-required="true">
+          <label id="email">Email</label>
+          <input type="text" placeholder="Email" aria-labelledby="email" aria-required="true">
+          <label id="subject">Subject</label>
+          <input type="text" placeholder="Subject" aria-labelledby="subject" aria-required="true">
+          <b id="your-message">Your Message</b>
+          <textarea aria-labelledby="your-message"></textarea>
+          <button type="submit" aria-label="send">Send</button>
         </form>
       </div>
     </main>
